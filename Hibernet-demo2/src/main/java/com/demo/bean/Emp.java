@@ -8,10 +8,30 @@ import javax.persistence.Id;
 public class Emp {
 	
 	 @Id
-	@GeneratedValue
-	int id;
+	 @GeneratedValue
+	 int id;
 	 String name;
 	 String tech;
+	 public Emp(int id, String name, String tech) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.tech = tech;
+	}
+	
+	public Emp(String name, String tech) {
+		// TODO Auto-generated constructor stub
+		super();
+		
+		this.name = name;
+		this.tech = tech;
+	}
+
+	public Emp() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public int getId() {
 		return id;
 	}
@@ -30,11 +50,7 @@ public class Emp {
 	public void setTech(String tech) {
 		this.tech = tech;
 	}
-	public Emp(String name, String tech) {
-		super();
-		this.name = name;
-		this.tech = tech;
-	}
+	
 	@Override
 	public String toString() {
 		return "Emp [id=" + id + ", name=" + name + ", tech=" + tech + "]";
