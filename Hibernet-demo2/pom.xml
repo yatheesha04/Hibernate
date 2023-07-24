@@ -16,7 +16,7 @@
 <dependency>
     <groupId>org.hsqldb</groupId>
     <artifactId>hsqldb</artifactId>
-    <version>2.4.0</version>
+    <version>2.7.1</version>
 </dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
@@ -44,7 +44,7 @@
 <dependency>
     <groupId>org.hsqldb</groupId>
     <artifactId>hsqldb</artifactId>
-    <version>2.4.0</version>
+    <version>2.7.1</version>
 </dependency>
 <dependency>
     <groupId>org.eclipse.persistence</groupId>
